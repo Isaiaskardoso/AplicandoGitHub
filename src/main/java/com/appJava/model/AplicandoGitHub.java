@@ -7,5 +7,7 @@ public class AplicandoGitHub {
 
         double idade = 35;
         System.out.println(idade);
+
+        System.out.println(string + " " + (idade));
     }
 }
