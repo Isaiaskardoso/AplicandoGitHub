@@ -2,12 +2,13 @@ package com.appJava.model;
 
 public class AplicandoGitHub {
     public static void main(String[] args) {
-        String string = "Hello ao git hub";
-        System.out.println(string);
+        String name;
+        name = "Antonio";
+        System.out.println(name);
 
-        double idade = 35;
-        System.out.println(idade);
+        int idade = 44;
+        System.out.printf("%s%nSua idade é ", idade);
 
-        System.out.println(string + " " + (idade));
+        System.out.println(idade + " , " + (name));
     }
 }
